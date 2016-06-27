@@ -29,12 +29,12 @@ public class DelayTestServlet extends HttpServlet {
 		// TODO Auto-generated method stub
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		for(int i = 0; i<= 500000; i++){
-			System.out.println("crash! " + i);
+			System.out.println("test" + i);
 		}
 		//response.getWriter().write("Hello!");
 		
 		/*try {
-			Thread.sleep(10000);
+			Thread.sleep(5000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}*/
